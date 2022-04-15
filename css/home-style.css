@@ -58,12 +58,11 @@
 }
 
 .link-nav:focus img{
-    filter: invert(21%) sepia(94%) saturate(1305%) hue-rotate(171deg) brightness(93%) contrast(98%);
+    
+    filter: invert(0%) sepia(51%) saturate(3306%) hue-rotate(177deg) brightness(50%) contrast(98%)
 }
 
-.link-nav:focus .img {
-    filter: invert(14%) sepia(74%) saturate(668%) hue-rotate(154deg) brightness(94%) contrast(102%);
-}
+
 
 .style-date-box {
     display: inline-block;

@@ -35,18 +35,20 @@
     background-color: #fff; 
     border-radius: 50px 0 0 50px;
     padding: 16px 0 16px 32px; 
-    
+    color: #02577A;
    
 }
 .inside {
     width: 100%;
 }
+
 .link-nav > img {
     width: 25px;
     height: 25px;
     margin-right: 15px;
     
 }
+
 .text-link{
     display: inline-block;
    
@@ -64,12 +66,18 @@
     left: 0;
     background-color: #F7F6FF;
 }
+.link-nav:focus img{
+    filter: invert(21%) sepia(94%) saturate(1305%) hue-rotate(171deg) brightness(93%) contrast(98%);
+}
 .left-nav:hover .text-link{
     font-size: 16px;
     transition: all ,.3s ease-in-out, .3s ease-in-out;  
 }
-.link-nav:focus .text-link{
-    color: #02577A;
+.link-nav:focus .text-link {
+    color: #043c54;
+}
+.link-nav:focus .img {
+    filter: invert(14%) sepia(74%) saturate(668%) hue-rotate(154deg) brightness(94%) contrast(102%);
 }
 .footer {
     width: 350px;

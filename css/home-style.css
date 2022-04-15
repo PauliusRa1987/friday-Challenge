@@ -1,0 +1,130 @@
+
+.left-nav {
+    width: 100px;
+    height: 100%;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F7F6FF;
+}
+
+.main-logo {
+    width: 68px;
+    height: 34px;
+    margin-top: 52px;
+    margin-left: calc(50% - 68px / 2);
+}
+.br-nav {
+    border-bottom: 2px solid #C4C4C4;
+    margin: 25px 18px 0 18px;
+
+}
+.a22{
+    margin-left: 11px;
+}
+.link-nav {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding-left:  26px;
+    
+}
+.link-nav:focus {
+    border: 1px solid #fff;
+    background-color: #fff; 
+    border-radius: 50px 0 0 50px;
+    padding: 16px 0 16px 32px; 
+}
+
+.inside {
+    width: 100%;
+}
+
+.link-nav > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+.text-link{
+    display: none;
+   
+    line-height: 25px;
+    color: #C4C4C4;
+    text-decoration: none;
+    font-size: 0;
+}
+
+.link-nav:focus img{
+    filter: invert(21%) sepia(94%) saturate(1305%) hue-rotate(171deg) brightness(93%) contrast(98%);
+}
+
+.link-nav:focus .img {
+    filter: invert(14%) sepia(74%) saturate(668%) hue-rotate(154deg) brightness(94%) contrast(102%);
+}
+
+.style-date-box {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100px;
+    padding: 20px 40px 0 40px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.time {
+    font-size: 22px;
+    line-height: 27px;
+    color: #02577A;
+    padding-bottom: 2%;
+    
+}
+.style-text-box {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: 100;
+    height: 80px;
+    margin-top: 30px;
+}
+.style-text-box >h1 {
+    padding-top: 20px;
+    font-weight: 500;
+    padding-left: 3%;
+    
+}
+.paddig-less {
+    padding: 0;
+}
+.backfoto {
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.citata {
+    border: 2px solid #02577A;
+    border-radius: 25px;
+    padding: 40px 60px;
+    text-align: center;
+}
+.citata > p{
+    font-size: 10px;
+    line-height: 15px;}
+.footer {
+        border-top: 1px solid #02577A;
+        
+    }
+.footer > p {
+        text-align: center;
+        line-height: 35px;
+        font-size: 11px;
+        font-weight: 500;
+        color: #02577A;
+        text-transform: capitalize;
+    }
+.none {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
